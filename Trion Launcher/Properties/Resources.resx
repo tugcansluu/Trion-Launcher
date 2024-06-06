@@ -124,13 +124,16 @@
   <data name="image2 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image2 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="trionlogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trionlogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Minecraft-PS4-Wallpapers-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Minecraft-PS4-Wallpapers-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="51e9ecb42b50af5d9bbc1ea8a232e993" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\51e9ecb42b50af5d9bbc1ea8a232e993.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="trionlogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\trionlogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="SPLASH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SPLASH.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

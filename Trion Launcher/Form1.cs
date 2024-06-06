@@ -10,12 +10,15 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CmlLib.Core.Auth;
+using DiscordRpcDemo;
 
 
 namespace Trion_Launcher
 {
     public partial class Form1 : Form
     {
+        private DiscordRpc.EventHandlers handlers;
+        private DiscordRpc.RichPresence presence;
         public Form1()
         {
             InitializeComponent();
@@ -54,6 +57,17 @@ namespace Trion_Launcher
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            this.handlers = default(DiscordRpc.EventHandlers);
+            DiscordRpc.Initialize("1248383265497419860", ref this.handlers, true, null);
+
+            this.presence = new DiscordRpc.RichPresence
+            {
+                details = "Login Screen",
+                state = "Launching...",
+                largeImageKey = "https://i.hizliresim.com/yrzig7g.png",
+                smallImageKey = "https://i.hizliresim.com/mirxx6b.png"
+            };
+            DiscordRpc.UpdatePresence(ref this.presence);
             path();
         }
 
