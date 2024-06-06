@@ -6,3 +6,7 @@ Login Screen
 
 Profile Versions
 ![image](https://github.com/tugcansluu/Trion-Launcher/assets/126765652/bb4b639e-0feb-4e1f-8539-cd68e775dffd)
+
+New Update**
+Added DiscordRPC to Trion Launcher!
+![image](https://github.com/tugcansluu/Trion-Launcher/assets/126765652/25ae081f-2daa-428d-8222-9c2d2e683504)
